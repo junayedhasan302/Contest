@@ -16,6 +16,7 @@ const htmlString1: string = `<!DOCTYPE html>
 </body>
 </html>`;
 
+
 // Test Case 1
 const htmlString2: string = `<html>
   <head>
