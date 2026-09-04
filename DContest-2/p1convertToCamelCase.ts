@@ -14,3 +14,7 @@ const convertToCamelCase = (sentence: string): string => {
     }
     return result;
 };
+
+// console.log(convertToCamelCase("Hello word"));
+// console.log(convertToCamelCase("i     love you"));
+// console.log(convertToCamelCase("junayedHasan"));

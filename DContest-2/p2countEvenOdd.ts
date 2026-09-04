@@ -9,3 +9,6 @@ function countEvenOdd(numbers: number[]): { even: number; odd: number } {
         odd: oddCount
     };
 }
+
+// console.log(countEvenOdd([1,2,3,4,5]));
+// console.log(countEvenOdd([1,3,5,7,9]));
