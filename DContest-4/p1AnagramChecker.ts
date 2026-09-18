@@ -25,4 +25,34 @@ function isAnagram(s1: string, s2: string): boolean {
     }
     return true;
 }
+
+
+console.log(isAnagram("listen", "silent")); // true
+console.log(isAnagram("hello", "world")); // false
+console.log(isAnagram("anagram", "nagaram")); // true
+console.log(isAnagram("rat", "car")); // false
+console.log(isAnagram("Hello", "hello")); // true
+console.log(isAnagram("HELLO", "hello")); // true
+console.log(isAnagram("Listen", "Silent")); // true
+console.log(isAnagram("A decimal point", "I'm a dot in place")); // true
+console.log(isAnagram("The eyes", "They see")); // true
+console.log(isAnagram("Dormitory", "Dirty room")); // true
+console.log(isAnagram("hello world", "world hello")); // true
+console.log(isAnagram("hello world", "hello")); // false
+console.log(isAnagram("hello", "hello world")); // false
+console.log(isAnagram("", "")); // true
+console.log(isAnagram("a", "a")); // true
+console.log(isAnagram("a", "b")); // false
+console.log(isAnagram("a", "")); // false
+console.log(isAnagram("aaabbb", "bbbaaa")); // true
+console.log(isAnagram("aaabbb", "aabbbb")); // false
+console.log(isAnagram("abc123", "321cba")); // true
+console.log(isAnagram("hello123", "123hello")); // true
+console.log(isAnagram("!!!", "???")); // true
+console.log(isAnagram("12345", "67890")); // true
+console.log(isAnagram("abc!", "!cba")); // true
+console.log(isAnagram("a-b-c", "cba")); // true
+console.log(isAnagram("apple", "appel")); // true
+console.log(isAnagram("apple", "apples")); // false
+
 //Accepted
