@@ -8,6 +8,7 @@ function gcd(a: number, b: number): number {
   }
   return a;
 }
+// ACCEPTED
 
 console.log(gcd(12, 18)); // 6
 console.log(gcd(7, 13)); // 1

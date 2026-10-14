@@ -62,5 +62,8 @@ function isValidEmail(email: string): boolean {
   return true;
 }
 
+// ACCEPTED
+
+
 console.log(isValidEmail("user@example.com")); // true
 console.log(isValidEmail("invalid.email@")); // false
