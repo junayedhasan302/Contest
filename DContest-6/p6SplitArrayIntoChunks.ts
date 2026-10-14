@@ -12,6 +12,9 @@ function chunkArray<T>(arr: T[], size: number): T[][] {
   return result;
 }
 
+// ACCEPTED
+
+
 console.log(chunkArray([1, 2, 3, 4, 5], 2));
 // [[1, 2], [3, 4], [5]]
 

@@ -23,6 +23,8 @@ function longestIncreasingStreak(nums: number[]): number {
   return maxStreak;
 }
 
+// ACCEPTED
+
 console.log(longestIncreasingStreak([1, 2, 3, 1, 2])); // 3
 console.log(longestIncreasingStreak([5, 4, 3, 2, 1])); // 1
 console.log(longestIncreasingStreak([])); // 0
