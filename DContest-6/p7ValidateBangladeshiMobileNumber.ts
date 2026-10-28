@@ -1,3 +1,4 @@
+
 // JUNAYED HASAN
 
 function isValidBdMobileNumber(phoneNumber: string): boolean {
@@ -39,3 +40,11 @@ function isValidBdMobileNumber(phoneNumber: string): boolean {
 
   return true;
 }
+
+console.log(isValidBdMobileNumber("01712345678"));    // true
+console.log(isValidBdMobileNumber("+8801712345678")); // true
+console.log(isValidBdMobileNumber("8801712345678"));  // true
+console.log(isValidBdMobileNumber("01212345678"));    // false
+console.log(isValidBdMobileNumber("0171234567"));     // false
+console.log(isValidBdMobileNumber("0171234567a"));    // false
+console.log(isValidBdMobileNumber("017123456789"));   // false
